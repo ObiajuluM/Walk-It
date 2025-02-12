@@ -84,6 +84,8 @@ doc/api/
 **/node_modules/*
 **/.firebaserc
 .firebase.json
+android/app/google-services.json
+lib/firebase_options.dart
 
 ### Firebase Patch ###
 .runtimeconfig.json
