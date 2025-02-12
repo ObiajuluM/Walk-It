@@ -1,0 +1,21 @@
+can create if auth
+can read if yours
+can update some values
+
+uid - read 
+firebaseName - read
+displayName - read
+email - read
+birth{year, month, day} - read
+gender - read
+signup location - read
+invitecode - read
+
+
+last seen location - write
+balance -write
+invitedBy - write
+invites - write
+daily goal - write
+claims - write
+

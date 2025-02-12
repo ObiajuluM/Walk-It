@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "776466770047",
+    "project_id": "walk-it-58385",
+    "storage_bucket": "walk-it-58385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776466770047:android:b37063ce756ed385e5f74a",
+        "android_client_info": {
+          "package_name": "com.walkitapp.walkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776466770047-qq9p4ouspdjiqq7qcjb7catfuaruelcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walkitapp.walkit",
+            "certificate_hash": "6b028e22a318ee29313751345c1f9a2ac874b657"
+          }
+        },
+        {
+          "client_id": "776466770047-g0pnplc2afjlovli46oasueai4h5gj8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1JcdSRLaVRJi2d_TaDUhw7tb9bhYOmP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776466770047-g0pnplc2afjlovli46oasueai4h5gj8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

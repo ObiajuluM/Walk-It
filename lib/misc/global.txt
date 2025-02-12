@@ -1,0 +1,42 @@
+encode decimal place in app to 2
+
+
+public data {
+all can read, but none can write
+
+bug report: string
+telegram: string
+twitter: string
+website: string
+
+privacy policy: string
+t & c: string
+
+hoursfrom: int
+hours to: int
+
+invite bonus: int
+sign up bonus: int
+cp per step: double
+min steps to reward: double
+max steps to reward: int
+
+}
+
+
+
+
+
+
+daily leaderboard: can write if auth and is yours and steps > 2k
+for leader board - query from fit yesterday data and append to leaderboard  steps must be over 2k
+add a function - hasleaderboard that runs once to update the leaderboard
+
+
+Invites db
+must be auth
+anyone can read
+user != owner of id - can edit
+allow create to only once to owner and no write
+if document id if your referal code - don't write
+if your uid is already present, dont write
