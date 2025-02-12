@@ -45,10 +45,10 @@
    ```
 
 ### 🎯 Roadmap  
-- [✅] Step tracking integration  
+- [x] Step tracking integration  
 - [ ] Wallet connection & authentication  
-- [✅] Rewards algorithm implementation  
-- [✅] UI/UX enhancements  
+- [x] Rewards algorithm implementation  
+- [x] UI/UX enhancements  
 - [ ] Beta launch  
 
 ### 🤝 Contributing  
