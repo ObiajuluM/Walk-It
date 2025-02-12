@@ -22,7 +22,7 @@
 ### 🏗️ Tech Stack  
 - **Frontend:** Flutter (Dart)  
 - **Backend:** Python (Django)  
-- **Blockchain:** XRPL-EVM, Shimmer ...
+- **Blockchain:** EVM based chains
 - **Database:** PostgreSQL
 
 ### 📜 Smart Contract  
