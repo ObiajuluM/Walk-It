@@ -58,7 +58,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ![home_dark](media/home_dark.jpg)
 ![refer_light](media/refer_light.jpg)
 ![balance_light](media/balance_light.jpg)
-[![splash_video](media/splash_video.mp4)]
+[![Splash video](media/splash_video.mp4)](media/splash_video.mp4)
+
+
 ---
 
 Let me know if you want to tweak anything! 🚀
