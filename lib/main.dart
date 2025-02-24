@@ -147,21 +147,10 @@ class _MainAppState extends ConsumerState<MainApp> {
 
         ///
         home: StreamBuilder(
-            stream: FirebaseAuth.instance.authStateChanges(),
+            stream: accessTokenStream.stream,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                return FutureBuilder(
-                    future: retrieveAccessTokenFromLocal(),
-                    builder: (context, snapshot) {
-                      // TODO: make fluid
-                      // if (snapshot.hasData) {
-                      //   return const MobilePrimaryPage();
-                      // } else {
-                      //   return const MobileSplashPage();
-                      // }
-
-                      return const MobilePrimaryPage();
-                    });
+                return const MobilePrimaryPage();
               } else {
                 Future(() {
                   ref

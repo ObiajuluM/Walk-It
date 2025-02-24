@@ -1,4 +1,7 @@
+import 'dart:async';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+StreamController<String?> accessTokenStream = StreamController<String?>();
 
 /// add access_token to flutter secure local storage
 Future<void> writeAccessTokenToLocal(String accessToken) async {
@@ -8,6 +11,7 @@ Future<void> writeAccessTokenToLocal(String accessToken) async {
   ));
 
   storage.write(key: "access_token", value: accessToken);
+  accessTokenStream.add("");
 }
 
 /// retrieve access token from db
@@ -21,6 +25,7 @@ Future<String?> retrieveAccessTokenFromLocal() async {
 
   accessToken = await storage.read(key: "access_token");
   // storage.registerListener(key: key, listener: listener);
+  accessTokenStream.add("");
 
   return accessToken;
 }
@@ -33,6 +38,7 @@ clearAccessTokenFromLocal() async {
   ));
 
   await storage.delete(key: "access_token");
+  accessTokenStream.add(null);
 }
 
 
