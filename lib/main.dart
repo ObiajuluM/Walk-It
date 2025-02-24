@@ -1,8 +1,8 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:google_fonts/google_fonts.dart';
 // import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:walk_it/misc/access_token.dart';
@@ -45,7 +45,7 @@ Future<void> main() async {
     ),
   );
 
-// do background stuff
+  // do background stuff
   if (await FlutterBackgroundService().isRunning() == false) {
     await initializeBkgService();
     FlutterBackgroundService().invoke('setAsForeground');
