@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 // import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:walk_it/misc/access_token.dart';
@@ -15,6 +15,8 @@ import 'package:walk_it/misc/background.dart';
 import 'firebase_options.dart';
 
 // TODO: AD we are at liberty of doing with your points as we wiish - they have no value
+
+// TODO: make it only work on one device
 
 /// in future updates add support to automatically share to social media at the end of the day
 

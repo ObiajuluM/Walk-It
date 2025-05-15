@@ -2,18 +2,14 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:ui';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:geolocator/geolocator.dart';
-
 import 'package:health/health.dart';
 import 'package:intl/intl.dart';
 import 'package:walk_it/firebase_options.dart';
 import 'package:walk_it/misc/backend.dart';
-import 'package:walk_it/misc/models.dart';
 
 // notification channel id
 const androidNotificationChannelId = "Walk It";
@@ -144,7 +140,7 @@ onStart(ServiceInstance service) async {
       if (DateTime.now().hour == 23 && healthSteps >= 100) {
         log("enter 1");
         //  if the getUserLastRecordedSteps fails, it is most likely because
-        // there was no object ot modify in the first place, so skip the error and show love
+        // there was no object to modify in the first place, so skip the error and show love
         try {
           final lastRecorded = await getUserLastRecordedSteps();
         } catch (e) {

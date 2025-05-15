@@ -1,4 +1,5 @@
 import 'dart:math';
+
 import 'package:confetti/confetti.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -6,12 +7,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
+import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:random_avatar/random_avatar.dart';
+
 import 'package:walk_it/misc/backend.dart';
+import 'package:walk_it/providers/dbconnect.dart';
 import 'package:walk_it/providers/home.dart';
 import 'package:walk_it/providers/primary.dart';
-import 'package:percent_indicator/linear_percent_indicator.dart';
-import 'package:walk_it/providers/dbconnect.dart';
 
 class MobileHomeAppBar extends ConsumerStatefulWidget {
   const MobileHomeAppBar({super.key});
